@@ -5,10 +5,37 @@
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
+    <img src="block.png">
+
     <div id="root">
-      <h1>Hello world!</h1>
+      <h1>Criptografar & Descriptografar</h1>
+      <hr>
+
+      <h3>Proteja suas mensagens! </h3>
+        Você pode criptografar e descriptografar qualquer texto usando palavras chaves.
     </div>
+    <br>
+       <input id="text" class="box1" type="text" name="input" placeholder="DIGITE SEU TEXTO AQUI.">
+       
+       <button id="toEncript" class="btn btn-purple" value="">CRIPTOGRAFAR </button>
+      
+       <input id="offset" type="number" min="1" max="26">
+
+       <button id="decrypt" class="btn btn-purple" value="">DESCRIPTOGRAFAR </button>
+
+     <div id="reply" class= "box2"></div>
+
+    <p>A cifra de César é uma das mais conhecidas técnicas de criptografia, é um tipo de cifra de substituição na qual cada letra do texto é substituída por outra, que se apresenta no alfabeto. Você deve escolher 
+      quantas posições deseja espaçar e automaticamente sua mensagem será criptografada.</p>
+
+      <footer>
+        <p>&copy; LuanaSantana</p>
+      </footer>
+
+
     <script src="index.js" type="module"></script>
+
   </body>
 </html>
