@@ -1,0 +1,71 @@
+body {
+    background: #655B74;
+    text-align: center;
+    font-style: italic;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+footer {
+    color:  rgb(36, 26, 71);
+    text-align: center;
+    font-style: italic;
+}
+
+.box1 {
+    display: block;
+    background: white;
+    border-radius: 15px;
+    padding: 50px;
+    width: 500px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.493);
+    margin: 2% auto;
+    margin-top: 20px;
+
+
+
+}
+
+.box2 {
+    display: block;
+    background: white;
+    border-radius: 15px;
+    padding: 50px;
+    width: 500px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.493);
+    margin: 2% auto;
+    margin-top: 20px;
+
+}
+
+.btn{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+.btn-purple{
+    background: rgb(36, 26, 71);
+    color: cornsilk;
+    box-shadow:0 5px 0 (36, 26, 71);
+    
+
+}
+
+.button:hover{
+    background: rgb(20, 0, 20);
+    color: cornsilk;
+    box-shadow:0 5px 0 rgb(20, 0, 20);
+
+}
+
+.btn-purple:active{
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+
+}
