@@ -4,34 +4,43 @@
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="#">
   </head>
 
   <body>
     <img src="block.png">
 
     <div id="root">
-      <h1>Criptografar & Descriptografar</h1>
-      <hr>
-
-      <h3>Proteja suas mensagens! </h3>
-        Você pode criptografar e descriptografar qualquer texto usando palavras chaves.
+       <h1>Criptografar & Descriptografar</h1>
+       <hr>
+       <h3>Proteja suas mensagens! </h3>
+       <p>Você pode criptografar qualquer texto usando palavras chaves.</p><hr>
+       <br>
     </div>
-    <br>
-       <input id="text" class="box1" type="text" name="input" placeholder="DIGITE SEU TEXTO AQUI.">
-       
-       <button id="toEncript" class="btn btn-purple" value="">CRIPTOGRAFAR </button>
-      
-       <input id="offset" type="number" min="1" max="26">
+        
+    
+      <input id="text" class="box" type="text" name="input" placeholder="DIGITE A MENSAGEM QUE VOCÊ DESEJA CRIPTOGRAFAR AQUI!"><br>
+      <input id="offset" type="number" min="1" max="26" placeholder="ESCOLHA SEU DESLOCAMENTO.">  
+      <button id="toEncript" class="btn btn-purple" value="">CRIPTOGRAFAR </button>
+      <div id="reply" class="box"></div>
+      <br>
+    
+      <hr><p>Descriptografe suas mensagens!</p><hr>
+      <br>
 
-       <button id="decrypt" class="btn btn-purple" value="">DESCRIPTOGRAFAR </button>
 
-     <div id="reply" class= "box2"></div>
+      <input id="text2" class="box2" type="text" name="input" placeholder="DIGITE A MENSAGEM QUE VOCÊ DESEJA DESCRIPTOGRAFAR AQUI!"><br>
+      <input id="offset2" type="number" min="1" max="26" placeholder="ESCOLHA SEU DESLOCAMENTO.">
+      <button id="decrypt" class="btn btn-purple" value="">DESCRIPTOGRAFAR </button>
+      <div id="reply2" class="box2"></div>
+      <br>
+
 
     <p>A cifra de César é uma das mais conhecidas técnicas de criptografia, é um tipo de cifra de substituição na qual cada letra do texto é substituída por outra, que se apresenta no alfabeto. Você deve escolher 
       quantas posições deseja espaçar e automaticamente sua mensagem será criptografada.</p>
 
       <footer>
-        <p>&copy; LuanaSantana</p>
+        <p>&copy;2020. LuanaSantana</p>
       </footer>
 
 
