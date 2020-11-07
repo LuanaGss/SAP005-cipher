@@ -38,7 +38,7 @@ A transformação pode ser representada alinhando-se dois alfabetos; o alfabeto 
 * Aperta o botão e sua mensagem sera descriptografada.
 
 **Chave de deslocamento:** :key:
-* Com a finalidade de ser um método seguro paraa enviar mensagens que somente o destinatário consiga ler, a **chave de deslocamento** é uma informação deve ser mantida em sigilo e só compartilhada com o destinatário.
+* Com a finalidade de ser um método seguro para enviar mensagens que somente o destinatário consiga ler, a **chave de deslocamento** é uma informação que deve ser mantida em sigilo e só compartilhada com o destinatário.
 
 ***
 
